@@ -2,29 +2,29 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=pycharm,python,macos,windows,linux,images,video
 
 ### Data folder ###
-Data
+data
 
 ### Images ###
 # JPEG
-*.jpg
-*.jpeg
-*.jpe
-*.jif
-*.jfif
-*.jfi
+**/*.jpg
+**/*.jpeg
+**/*.jpe
+**/*.jif
+**/*.jfif
+**/*.jfi
 
 # JPEG 2000
-*.jp2
-*.j2k
-*.jpf
-*.jpx
-*.jpm
-*.mj2
+**/*.jp2
+**/*.j2k
+**/*.jpf
+**/*.jpx
+**/*.jpm
+**/*.mj2
 
 # JPEG XR
-*.jxr
-*.hdp
-*.wdp
+**/*.jxr
+**/*.hdp
+**/*.wdp
 
 # Graphics Interchange Format
 *.gif
@@ -403,22 +403,22 @@ poetry.toml
 pyrightconfig.json
 
 ### Video ###
-*.3g2
-*.3gp
-*.asf
-*.asx
-*.avi
-*.flv
-*.mkv
-*.mov
-*.mp4
-*.mpg
-*.ogv
-*.rm
-*.swf
-*.vob
-*.wmv
-*.webm
+**/*.3g2
+**/*.3gp
+**/*.asf
+**/*.asx
+**/*.avi
+**/*.flv
+**/*.mkv
+**/*.mov
+**/*.mp4
+**/*.mpg
+**/*.ogv
+**/*.rm
+**/*.swf
+**/*.vob
+**/*.wmv
+**/*.webm
 
 ### Windows ###
 # Windows thumbnail cache files

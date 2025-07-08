@@ -10,9 +10,15 @@ dependencies:
   - scipy=1.15.3
   - scikit-image=0.25.2
   - scikit-learn=1.7.0
+  - pre-commit=3.4.0
   - matplotlib=3.10.3
   - pandas=2.3.0
   - tqdm=4.67.1
-  - ruptures=1.1.9            # Change point detection
   - jupyterlab=4.4.4          # For experimentation and visualization
   - ipykernel=6.29.5
+  - ffmpeg-python=0.2.0
+  - pytest=8.3.4
+  - pillow=11.1.0
+  - pytorch=2.5.1
+  - torchvision=0.20.1
+  - ipywidgets=8.1.5

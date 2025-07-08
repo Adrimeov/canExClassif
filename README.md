@@ -7,6 +7,28 @@
    conda env create -f environment.yml && conda activate CanExClasif
    ```
    
+2. Update the environment when adding package to environment.yml 
+   ```shell
+   conda env update -f environment.yml
+   ```
+   
+3. Install pre-commit hooks
+   ```shell
+   pre-commit install
+   ```
+   
+4. [Optional] Remove conda env
+   ```shell
+   conda deactivate && conda remove -n data-iotcore-lib --all
+   ```
+
+5. Make sure to drop the following videos in the `data/raw` folder:
+   - `GS010012.mp4`
+   - `GS010016.mp4`
+
+### Raw Data   
+[Canex Onedrive](https://canextechno-my.sharepoint.com/personal/olivier_beaulieu_canex_tech/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Folivier%5Fbeaulieu%5Fcanex%5Ftech%2FDocuments%2FTest%20Technique%20Data&ga=1)
+
 ### Task 1: Multiple Pipe Segment Detection
 
 You are provided with multiple 360-degree videos from real sewer inspections. Each video contains two pipe segments,
