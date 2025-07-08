@@ -2,7 +2,7 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=pycharm,python,macos,windows,linux,images,video
 
 ### Data folder ###
-./Data
+Data
 
 ### Images ###
 # JPEG
